@@ -1,0 +1,45 @@
+# compiled output
+/sl-music/dist
+/sl-music/tmp
+/sl-music/out-tsc
+/sl-music/vendor
+/sl-music/app/logs
+# dependencies
+/sl-music/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+/.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/sl-music/.sass-cache
+/sl-music/connect.lock
+/sl-music/coverage/*
+/sl-music/libpeerconnection.log
+npm-debug.log
+testem.log
+/sl-music/typings
+
+# e2e
+/sl-music/e2e/*.js
+/sl-music/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+!.gitkeep
+
+*.pptx
