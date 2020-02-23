@@ -15,8 +15,15 @@ export class HomeComponent implements OnInit {
   constructor(private http: HttpService) { }
 
   ngOnInit(): void {
-    this.http.get<Message>("/").subscribe(msg => {
-      this.message = msg.message;
+    //this.http.get<Message>("/").subscribe(msg => {
+    //  this.message = msg.message;
+    //})
+  }
+
+  test(): void {
+    let question = this.http.get("generate/theory-interval/2", true).subscribe(msg => {
+      console.log(JSON.stringify(msg))
     })
+
   }
 }

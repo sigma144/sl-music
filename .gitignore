@@ -6,6 +6,7 @@
 /sl-music/app/logs
 # dependencies
 /sl-music/node_modules
+/backend/node_modules
 
 # IDEs and editors
 /.idea
