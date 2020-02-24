@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { PracticeComponent } from './components/practice/practice.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MusicDisplayComponent } from './components/music-display/music-display.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     HomeComponent,
     PracticeComponent,
+    MusicDisplayComponent,
   ],
   imports: [
     BrowserModule,
